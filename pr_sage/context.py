@@ -33,7 +33,7 @@ _REF_PATTERNS = [
     # owner/repo/pull/123
     re.compile(r"^([\w.-]+)/([\w.-]+)/pull/(\d+)$"),
     # owner/repo#123
-    re.compile(r"^([\w.-]+)/([\w.-])#(\d+)$"),
+    re.compile(r"^([\w.-]+)/([\w.-]+)#(\d+)$"),
 ]
 
 
