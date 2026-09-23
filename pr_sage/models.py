@@ -53,6 +53,7 @@ class PRMeta:
     author: str = ""
     base: str = ""
     head: str = ""
+    head_sha: str = ""
     labels: list[str] = field(default_factory=list)
     changed_files: int = 0
     additions: int = 0
